@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Home Loans 2024 | The Loan Connection</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://widget.taggbox.com/embed-lite.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="tlc-header">
+        <div class="tlc-container">
+            <div class="tlc-header-content">
+                <div class="tlc-logo-wrapper">
+                    <img src="https://theloanconnection.com.sg/wp-content/uploads/2024/11/logo-of-tlc.png" alt="The Loan Connection" class="tlc-logo">
+                </div>
+                <div class="tlc-header-text">
+                    Get Fixed Rates from 2.40% + <span class="tlc-highlight">1st Month FREE!</span> Unlock Up to $6,800 in Rewards, Bank Subsidies & Cash Rebates!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tlc-hero" id="form-section">
+        <div class="tlc-container">
+            <div class="tlc-hero-content">
+                <div class="tlc-hero-text">
+                    <span class="tlc-highlight">Compare</span> home loans in 2024 and <span class="tlc-highlight">Save</span> on monthly repayments!
+                </div>
+                <div class="tlc-form-wrapper">
+                    <div class="tlc-form-header-overlap">
+                        <h2>How can we help ?</h2>
+                    </div>
+                    <div class="tlc-form-card">
+                        <form id="loanForm">
+                            <div class="tlc-form-page active" id="page1">
+                                <div class="tlc-form-group">
+                                    <label>Required service</label>
+                                    <div class="tlc-radio-group">
+                                        <label>
+                                            <input type="radio" name="loan_type" value="new" checked onclick="togglePropertyPurchase(false)">
+                                            New Loan (Purchase/IPA)
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="loan_type" value="refinance" onclick="togglePropertyPurchase(true)">
+                                            Refinance
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="loan_type" value="decoupling">
+                                            Decoupling
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="loan_type" value="equity">
+                                            Equity Loan
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="tlc-form-group">
+                                    <label>Property Type</label>
+                                    <div class="tlc-radio-group">
+                                        <label>
+                                            <input type="radio" name="property_type" value="private" checked>
+                                            Private
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="property_type" value="hdb">
+                                            HDB
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="tlc-form-group" id="propertyPurchaseGroup">
+                                    <label>Construction of property</label>
+                                    <div class="tlc-radio-group">
+                                        <label>
+                                            <input type="radio" name="property_purchase" value="yes" checked>
+                                            Completed
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="property_purchase" value="no">
+                                            Uncompleted
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="tlc-form-group">
+                                    <label>Loan Amount (SGD)</label>
+                                    <input type="number" required placeholder="$ Enter loan amount">
+                                </div>
+                                
+                                <button type="button" class="tlc-btn" onclick="nextPage()">Compare banks now</button>
+                            </div>
+                            
+                            <div class="tlc-form-page" id="page2">
+                                <!-- <div class="tlc-form-header-overlap">
+                                    <h2>Final Step!</h2>
+                                </div> -->
+                                <div class="tlc-form-group">
+                                    <label>Rate Type</label>
+                                    <div class="tlc-radio-group">
+                                        <label>
+                                            <input type="radio" name="rate_type" value="both" checked>
+                                            Both
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="rate_type" value="fixed">
+                                            Fixed
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="rate_type" value="floating">
+                                            Floating
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="tlc-form-group">
+                                    <label>Name</label>
+                                    <input type="text" required placeholder="Enter your name">
+                                </div>
+
+                                <div class="tlc-form-group">
+                                    <label>Email</label>
+                                    <input type="email" required placeholder="Enter your email">
+                                </div>
+
+                                <div class="tlc-form-group">
+                                    <label>Contact Number</label>
+                                    <input type="tel" required placeholder="Enter your contact number">
+                                </div>
+
+                                <div class="tlc-btn-group">
+                                    <button type="button" class="tlc-btn tlc-btn-secondary" onclick="previousPage()">Go Back</button>
+                                    <button type="submit" class="tlc-btn">Get the Best Rates</button>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="date-header" id="updateDate"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <!-- Google Reviews Section -->
+  <section class="tlc-reviews-section">
+    <div class="elfsight-app-5c7da31e-42a9-4e3f-91a0-90913d53dd1d" data-elfsight-app-lazy></div>  
+
+    <div class="tlc-reviews-text">
+        <span>As featured on</span>
+        <img 
+            src="https://theloanconnection.com.sg/wp-content/uploads/2024/11/pngwing.com_.png" 
+            alt="Google Logo" 
+            class="google-logo">
+    </div>
+
+    <div class="taggbox" style="width:100%;height:100%" data-widget-id="2138272" data-tags="false"></div>
+    <script src="https://widget.taggbox.com/embed-lite.min.js" type="text/javascript"></script> 
+</section>
+
+    <!-- New Headline Section -->
+    <div class="tlc-headline-section">
+        <div class="tlc-container">
+          <!-- <div class="date-header" id="updateDate"></div> -->
+            <h3 class="tlc-headline">Compare Home Loans Across All Banks in Singapore</h3>
+        </div>
+    </div>
+
+    <!-- Bank Partners Section -->
+    <section class="tlc-partners-section">
+        <div>
+        <h2 class="tlc-partners-heading">Our Bank Partners</h2>
+        </div>
+        <div class="tlc-partners-carousel">
+          <div class="tlc-partners-track">
+            <!-- Original slides -->
+            <div class="tlc-partners-slide">
+              <img src="https://theloanconnection.com.sg/wp-content/uploads/2024/03/White-Elegant-Red-Bow-Discount-Gift-Voucher-Gift-Certificate-Logo-6.png" alt="Bank Partner 1" />
+            </div>
+            <div class="tlc-partners-slide">
+              <img src="https://theloanconnection.com.sg/wp-content/uploads/2024/03/White-Elegant-Red-Bow-Discount-Gift-Voucher-Gift-Certificate-Logo-9.png" alt="Bank Partner 2" />
+            </div>
+            <div class="tlc-partners-slide">
+              <img src="https://theloanconnection.com.sg/wp-content/uploads/2024/03/White-Elegant-Red-Bow-Discount-Gift-Voucher-Gift-Certificate-Logo-10.png" alt="Bank Partner 3" />
+            </div>
+            <div class="tlc-partners-slide">
+              <img src="https://theloanconnection.com.sg/wp-content/uploads/2024/03/White-Elegant-Red-Bow-Discount-Gift-Voucher-Gift-Certificate-Logo-11.png" alt="Bank Partner 4" />
+            </div>
+            <div class="tlc-partners-slide">
+              <img src="https://theloanconnection.com.sg/wp-content/uploads/2024/03/White-Elegant-Red-Bow-Discount-Gift-Voucher-Gift-Certificate-Logo-12.png" alt="Bank Partner 5" />
+            </div>
+            <div class="tlc-partners-slide">
+              <img src="https://theloanconnection.com.sg/wp-content/uploads/2024/03/White-Elegant-Red-Bow-Discount-Gift-Voucher-Gift-Certificate-Logo-13.png" alt="Bank Partner 6" />
+            </div>
+            <div class="tlc-partners-slide">
+              <img src="https://theloanconnection.com.sg/wp-content/uploads/2024/03/White-Elegant-Red-Bow-Discount-Gift-Voucher-Gift-Certificate-Logo-14.png" alt="Bank Partner 7" />
+            </div>
+            <div class="tlc-partners-slide">
+              <img src="https://theloanconnection.com.sg/wp-content/uploads/2024/03/White-Elegant-Red-Bow-Discount-Gift-Voucher-Gift-Certificate-Logo-16.png" alt="Bank Partner 8" />
+            </div>
+            <div class="tlc-partners-slide">
+              <img src="https://theloanconnection.com.sg/wp-content/uploads/2024/03/White-Elegant-Red-Bow-Discount-Gift-Voucher-Gift-Certificate-Logo-17.png" alt="Bank Partner 9" />
+            </div>
+            <!-- Cloned slides for seamless looping -->
+            <div class="tlc-partners-slide">
+              <img src="https://theloanconnection.com.sg/wp-content/uploads/2024/03/White-Elegant-Red-Bow-Discount-Gift-Voucher-Gift-Certificate-Logo-6.png" alt="Bank Partner 1" />
+            </div>
+            <div class="tlc-partners-slide">
+              <img src="https://theloanconnection.com.sg/wp-content/uploads/2024/03/White-Elegant-Red-Bow-Discount-Gift-Voucher-Gift-Certificate-Logo-9.png" alt="Bank Partner 2" />
+            </div>
+            <div class="tlc-partners-slide">
+              <img src="https://theloanconnection.com.sg/wp-content/uploads/2024/03/White-Elegant-Red-Bow-Discount-Gift-Voucher-Gift-Certificate-Logo-10.png" alt="Bank Partner 3" />
+            </div>
+            <div class="tlc-partners-slide">
+              <img src="https://theloanconnection.com.sg/wp-content/uploads/2024/03/White-Elegant-Red-Bow-Discount-Gift-Voucher-Gift-Certificate-Logo-11.png" alt="Bank Partner 4" />
+            </div>
+            <div class="tlc-partners-slide">
+              <img src="https://theloanconnection.com.sg/wp-content/uploads/2024/03/White-Elegant-Red-Bow-Discount-Gift-Voucher-Gift-Certificate-Logo-12.png" alt="Bank Partner 5" />
+            </div>
+          </div>
+        </div>
+    </section>
+    
+    <section class="faq">
+    <div class="faq-container">
+        <h2 class="faq-title">Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <div class="faq-question">Why should I contact a mortgage broker instead of going directly to a bank?</div>
+            <div class="faq-answer">A mortgage broker can offer you access to a wider range of loan options from various banks and financial institutions. This means more competitive rates and terms tailored to your specific needs.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">How can filling out the form help me find the best mortgage deals?</div>
+            <div class="faq-answer">By filling out the form, you provide us with essential details about your financial situation. This allows us to quickly identify the most suitable mortgage options and lenders for your specific circumstances.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Is it free to consult with a mortgage broker?</div>
+            <div class="faq-answer">Yes, our consultation services are free! We work with you to identify the best mortgage options, and our compensation comes from the lender when a loan is successfully arranged.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">How long will it take to get a response after submitting the form?</div>
+            <div class="faq-answer">You can expect to hear from us within 1 business day. We prioritize quick responses to ensure you can move forward with your mortgage plans as soon as possible.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Do you help with refinancing as well?</div>
+            <div class="faq-answer">Absolutely! Whether you're looking to refinance your current mortgage to get better rates or to access your home equity, we can help you explore all available options.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">What if I'm a first-time homebuyer?</div>
+            <div class="faq-answer">No problem! We specialize in helping first-time homebuyers navigate the mortgage process. We'll guide you through each step and help you understand all your options.</div>
+        </div>
+    </div>
+    </section>
+    <section class="how-it-works">
+        <div class="container">
+          <h2 class="title">How It Works</h2>
+          <p class="subtitle">We make finding the perfect mortgage easy, fast, and cost-effective!</p>
+          
+          <div class="grid">
+            <div class="grid-item">
+              <img src="https://theloanconnection.com.sg/wp-content/uploads/2024/11/statistics.png" alt="Compare Lenders" class="icon">
+              <h3>We Compare Multiple Lenders for You</h3>
+              <p>Access our network of trusted lenders to find the most competitive rates and terms tailored to your situation.</p>
+            </div>
+            
+            <div class="grid-item">
+              <img src="https://theloanconnection.com.sg/wp-content/uploads/2024/11/note.png" alt="Tailored Advice" class="icon">
+              <h3>Tailored Mortgage Advice to Fit Your Needs</h3>
+              <p>Receive personalized recommendations based on your unique financial situation and goals.</p>
+            </div>
+            
+            <div class="grid-item">
+              <img src="https://theloanconnection.com.sg/wp-content/uploads/2024/11/sleek.png" alt="Fast Process" class="icon">
+              <h3>Fast & Easy Application Process</h3>
+              <p>Complete your application quickly and efficiently with our streamlined digital process.</p>
+            </div>
+            
+            <div class="grid-item">
+              <img src="https://theloanconnection.com.sg/wp-content/uploads/2024/11/no-fees.png" alt="No Fees" class="icon">
+              <h3>No Fees for Our Services</h3>
+              <p>Get expert mortgage guidance and support without any additional costs or hidden fees.</p>
+            </div>
+          </div>
+    
+          <button class="cta-button">Get the Best Rate</button>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-container">
+          <p class="footer-text">Copyright © 2024 The Loan Connection. All rights reserved.</p>
+        </div>
+      </footer>
+    
+    <script src="script.js"></script>
+</body> 
+</html>
